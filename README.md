@@ -4,7 +4,7 @@
 
 Submitted by: **Tommy Nguyen**
 
-Time spent: **13** hours spent in total
+Time spent: **15** hours spent in total
 
 Link to project: (
 https://glitch.com/edit/#!/rhetorical-holly-peripheral)
@@ -50,16 +50,16 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
-[StackOverFlow, YouTube, Google]
+[StackOverFlow, YouTube, Google, GeeksForGeeks]
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
-[A specfic challenge that I encountered was implementing the timer function. At the beginning of the project, I have very little knowledge about how to incoporate time in Javascript. Therefore, I went on Google to try to read and grasp the basic fundamental before implementing the function. I also watch some Youtube video to see real example and try to understand the topic even futher. After some long hours and many trial and error, I manage to create a timer function that work. I was able to show the timer and the countdown. However, there was one huge problem. The timer will start the count down before the Clue Sequence finish playing. I tried to search tons of Youtube video and article to help me find the solution, but it didn't work. Instead of wasting time conting searching instead I tried to track and use console.log() to find where the timer stop or start. I also take note of how other function are interacting with the timer function. After some time, I was able to identify that the problem was located in the playClueSequence() function. I placed the timer function after the for loop in the playClueSequence(). There was a delay variable and setTimeOut() function in the for loop. Therefore, I thought that the for loop containing the setTimeOut() is delay and  timer function will played after the for loop is done. However, I found out that the for loop actually iterate very quickly in a split-second. I immedaitely went to research more information about the setTimeOut() function. I have learned that the setTimeOut() function is non-blocking and will return immediately. After I learn enough informoation about setTimeOut() function I decided to use it with my timer function. I use the setTimeOut() and pass in my timerfunction and the delay variable inorder for my timer to be delay long enough until the clueseqnece done playing.]
+[The most frustrating challenge that I encountered was trying to add the ticking clock. I had managed to complete all of the previous features. The ticking clock was the only one left. At the time,  I didn't know how to implement time in Javascript, and the ticking clock was an optional feature, but I still wanted to push myself and complete all the features. First, I begin by learning the fundament of how time work in HTML and Javascript. I went on Google and read plenty of articles, and tried some websites such as GeeksForGeeks, to learn how to implement the ticking clock to my project. Then I went on Youtube to see some real examples. I also took into consideration of the two functions setInterval() and clearInterval() mentioned in the prework description.  After some hours and trial and error, I create three count timer functions (beginTimer, pauseTimer, resetTimer) that work perfectly. However, there was one huge problem. The timer will start the count down before the Clue Sequence finishes playing. I tried to copy and paste my timer functions at multiple random places in the playClueSequence() functions to try to solve the problem, but it didn't work. I then track my functions from the beginning through the end by using console.log() to locate where the function stops and starts. After some long hours of tracking and researching on StackOverflow, I finally found out that the problem was in the for loop. At first, I thought the setTimeOut() function will delay the for loop execution. However, by reading some Q&A on StackOverFlow I found out that the setTimeOut() function is non-blocking and will return immediately. Therefore the for loop actually iterate very quickly, in a split-second. I then go on Youtube and Google once again to learn more about the setTimeOut() function. After, I manage to incorporate the setTimeOut() functions with my timer function to delay the timer long enough until the Clue Sequence is done playing. Looking back I had realized that the problem wasn’t that hard, but I was very frustrated and struggled a lot.  However, it was all worth it in the end because I was able to learn something new. ]
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+[The only question I would have is about incorporating images. I did manage to download some animal pictures and learn how to adjust the width and height of the image. I also learn how to make the image reappear and disappear, which I learned from installing the start and stop button at the beginning of the project. My goal was to make my square button switch places with one of my images when clicked. However, I couldn't find any articles or videos about how that works. Therefore, if I have an opportunity I would want to ask and learn about how to incorporate images with functions in HTML and Javascript.]
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+[If I had a few more hours, I would do three things. First, I would definately tried to clean up my code. I had tried my best to understand all the functions in the project so that I won't create any repetitive code. However, I still think that there are some part of my project that could be deleted that won't cause any problem. I would also group some functions together to optimize the code. Second, I would tried to fix a bug in my project. The bug occur when the start button and square button are smash repetitively which lead to the timer just start counting down without stoping. I had tried multiple method to locate and solve the problem, but I was never able to learn what create the problem in the first place. Finally, if I had some more time I will continue tried to implement some image into my project. I wanted the sqaure button to switch with my image when I click but I wasn't able to find any resources to help me solve the problem. Therefore, I was hoping to ask one of my friends for help.   ]
 
 
 
@@ -70,7 +70,7 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
 ## License
 
-    Copyright [YOUR NAME]
+    Copyright [Tommy Nguyen]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
