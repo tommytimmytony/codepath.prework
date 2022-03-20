@@ -39,6 +39,7 @@ The following **additional** features are implemented:
 - Incorporated firework at the end of the victory screen by using an API from fireworks-js.
 - Install a level label for the player to keep track of the level.
 - Create a function that will show the word "Congratulations" when the user win the game. Then remove it at the start of the game. 
+- Implement a theme song for the end victory screen. 
 
 ## Video Walkthrough (GIF)
 
