@@ -50,9 +50,11 @@ Showcasing Victory Screen and Audio:
 ![](https://media.giphy.com/media/s9SsQg96qwfJzB9mbq/giphy.gif)
 
 Showcasing the Mistake and Countdown Timer:
+
 ![](https://media.giphy.com/media/9vvYiGSXht0dtFARl7/giphy.gif)
 
 Showcasing the Stop button and Mistake:
+
 ![](https://media.giphy.com/media/M6DapJQsGkwegZSpPv/giphy.gif)
 
 All of the Audio(excluding the Victory Audio):
