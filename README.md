@@ -44,10 +44,11 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
- https://recordit.co/18joVsztx6
- https://recordit.co/VY0DojICaw
- https://recordit.co/BYSV2IXNLl
-![](gif4-link-here)
+ https://media.giphy.com/media/A1VcNrIqoaTH4wswvR/giphy.gif
+ https://www.kapwing.com/videos/623d3d6d06c7860065637d6e
+ https://www.kapwing.com/videos/623d3cfaf03195006d26b784
+ https://www.kapwing.com/videos/623d3cc42df6fb008a7e1edc
+![]()
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
