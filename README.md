@@ -77,7 +77,7 @@ All of the Audio(excluding the Victory Audio):
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](https://www.loom.com/share/73d558d78915474e9ceea558fdd848c1)
+[My 5-minute Interview Recording](https://www.loom.com/share/37ce0b6d1e6c4a4f9a7ac5374bfb7343)
 
 
 ## License
