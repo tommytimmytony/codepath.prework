@@ -105,7 +105,7 @@ function stopGame(){
 
 // Sound Synthesis Functions
 const freqMap = {
-  1: 230.2,
+  1: 530.2,
   2: 261.6,
   3: 329.6,
   4: 392,
